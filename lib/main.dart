@@ -1,4 +1,4 @@
-import 'package:app_akademie_practice/bonus_aufgabe.dart';
+import 'package:app_akademie_practice/gallery/main_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BonusAufgabe(),
+      home: MainScreen(),
     );
   }
 }
