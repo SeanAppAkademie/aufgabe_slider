@@ -1,4 +1,4 @@
-import 'package:app_akademie_practice/practice/todo_practice.dart';
+import 'package:app_akademie_practice/todo_practice.dart';
 import 'package:flutter/material.dart';
 
 class TodoCard extends StatelessWidget {
