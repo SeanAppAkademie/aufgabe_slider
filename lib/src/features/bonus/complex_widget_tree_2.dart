@@ -42,7 +42,7 @@ class ComplexWidgetTree2 extends StatelessWidget {
                 itemCount: myPresents.length,
                 itemBuilder: (context, index) {
                   Present present = myPresents[index];
-                  return MyPresentCard(present: myPresents[index]);
+                  return MyPresentCard(present: present);
                 },
               ),
             ),

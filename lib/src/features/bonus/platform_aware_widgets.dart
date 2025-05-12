@@ -1,7 +1,4 @@
-import 'dart:io';
-
 import 'package:app_akademie_practice/src/features/bonus/stateful_widget.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class PlatformAwareWidgets extends StatefulWidget {
