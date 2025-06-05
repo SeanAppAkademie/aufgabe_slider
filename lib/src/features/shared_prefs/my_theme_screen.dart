@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
 class MyThemeScreen extends StatefulWidget {
-  final void Function() onTap;
-  const MyThemeScreen({required this.onTap, super.key});
+  //final bool isDarkMode;
+  //final void Function() onTap;
+  const MyThemeScreen({
+    //required this.onTap,
+    //required this.isDarkMode,
+    super.key,
+  });
 
   @override
   State<MyThemeScreen> createState() => _MyThemeScreenState();
@@ -20,13 +25,13 @@ class _MyThemeScreenState extends State<MyThemeScreen> {
           ListTile(
             title: Text("Dark Mode"),
             trailing: Switch(
-              value: true,
+              value: true, //widget.isDarkMode,
               onChanged: (newValue) {},
             ),
           ),
           ElevatedButton(
             onPressed: () {
-              widget.onTap();
+              //widget.onTap();
             },
             child: Text(
               "Change Theme",

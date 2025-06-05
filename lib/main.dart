@@ -38,14 +38,15 @@ class _MainAppState extends State<MainApp> {
       darkTheme: AppTheme.darkTheme,
       themeMode: isDarkMode ? ThemeMode.dark : ThemeMode.light,
       home: MyThemeScreen(
-        onTap: () async {
-          final newVal = isDarkMode ? false : true;
-          await SharedPreferencesService.setTheme(newVal);
-          setState(() {
-            isDarkMode = newVal;
-          });
-        },
-      ),
+          // isDarkMode: isDarkMode,
+          // onTap: () async {
+          //   final newVal = isDarkMode ? false : true;
+          //   await SharedPreferencesService.setTheme(newVal);
+          //   setState(() {
+          //     isDarkMode = newVal;
+          //   });
+          // },
+          ),
     );
   }
 }
